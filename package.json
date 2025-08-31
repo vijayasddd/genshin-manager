@@ -19,7 +19,6 @@
     "docs": "docs"
   },
   "scripts": {
-    "prepare": "husky",
     "updateDoc": "npm run docs && git add docs && git commit -m \"[docs]update docs\" && git push",
     "lint": "eslint .",
     "lint:unix": "eslint . --format unix",
